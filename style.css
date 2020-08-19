@@ -32,6 +32,9 @@
 }
 
 h2{
+    border-style: double;
+    padding-top: 2%;
+    padding-bottom: 2%;
     text-align: center;
 }
 
@@ -45,9 +48,24 @@ h2{
 .year{
  border-bottom: 1px solid darkgray;
  font-weight: bold;
+ text-align: center;
+ width: 120px;
+}
+.large{
+    border-bottom: 1px solid darkgray;
+    font-weight: bold;
+    text-align: center; 
 }
 .randominfo{
     border-bottom: 1px solid darkgray;
+    width: 245px;
+}
+
+.lieu{
+
+    border-bottom: 1px solid darkgray;
+    width: 150px;
+    
 }
 .randominfo2{
     border-right: 1px solid darkgrey;
@@ -62,4 +80,5 @@ h2{
 td{
     padding-top: 2%;
     padding-bottom: 2%;
+   
 }
